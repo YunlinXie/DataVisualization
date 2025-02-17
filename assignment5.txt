@@ -1,0 +1,48 @@
+Submission: Geographic Data Analysis Assignment
+Assignment Description
+In this assignment, you will be using a database of geographic data provided for you in the Libpysal library to create two plots: a choropleth map and a proportional symbol map.
+
+In addition to these two plots, you will compute the value of Moran's I for this data. 
+
+Directions
+The data for this assignment includes the United States' lower 48 states (usjoin.csv). In addition to the state-by-state data, the dataset contains shape files(us48.shp) for each state that you can use to create the choropleth and proportional symbol maps.
+
+Using the data provided, perform the required analyses and create the requested maps.
+
+Submission Directions for Assignment Deliverables
+This assignment will be auto-graded. You must complete and submit your work through Ed Lesson’s code challenge to receive credit for the course:
+
+1. In order for your answers to be correctly registered in the system, you must place the code for your answers in the cell indicated for each question. 
+
+You should submit the assignment with the output of the code in the cell's display area. The display area should contain only your answer to the question with no extraneous information, or else the answer may not be picked up correctly. 
+
+Each cell that is going to be graded has a set of comment lines (ex: ### TEST FUNCTION: test_question1) at the beginning of the cell. This line is extremely important and must not be modified or removed.
+
+2. After completing the notebook, run each code cell individually or click “Run All” at the top to print the outputs.
+
+3. When you are ready to submit your completed work, click on “Mark” at the bottom right of the screen. 
+
+4. You will know you have successfully completed the assignment when feedback appears for each test case with a score.
+
+5. If needed: to resubmit the assignment in Ed Lesson 
+
+Edit your work in the notebook
+
+Run the code cells again
+
+Click “Mark” at the bottom of the screen 
+
+Your submission will be reviewed by the course team and then, after the due date has passed, your score will be populated from Ed Lesson into your Canvas grade.
+
+Evaluation
+There are three parts in the grading, and each part has one test case where the total number of points for all parts is 50. If the submission fails, we will return the corresponding error messages. If the submission is correct, you will see "Correct" or “The plot is valid” with scores for each part.
+
+Common Errors:
+PNG Plot not found: Add %matplotlib inline in your cell.
+
+The plot generated is not a valid chart: Ensure your chart has all the specified parameters in the right format as outlined in each question.
+
+
+Note: To achieve better scores, consider following the Jupyter Notebook Demonstration titled "Geographic Visualization and Data Analysis in Python Reading or Video"
+
+Please execute each cell in the Notebook before submitting.
